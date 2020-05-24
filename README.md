@@ -5,10 +5,17 @@ A project related to Book Search Engine. Searching in this project is implemente
 Steps for installing the repository:-
 
 Download the repository.
-After downloading, Goto text_search folder and run: pip3 install -r requirements.txt
-After installing all the dependencies, create virtual environment called "venv".
-After this, run : python manage.py migrate
-Run: python manage.py runserver
+
+Steps:
+
+1. After downloading, Goto text_search folder and run: pip3 install -r requirements.txt
+
+2. After installing all the dependencies, create virtual environment called "venv".
+
+3. After this, run : python manage.py migrate
+
+4. Run: python manage.py runserver
+
 There are Two Api's in this project:
 
 ##############################################################################################
@@ -55,3 +62,5 @@ Request format:
 This api returns the search text related list of summeries, book id, query string, book author.
 
 ##############################################################################################
+
+NOTE: Unit Test cases are not implement in this project
