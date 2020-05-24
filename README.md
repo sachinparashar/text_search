@@ -1,4 +1,5 @@
-#text_search
+TEXT SEARCH ENGINE
+
 A project related to Book Search Engine. Searching in this project is implemented by using "Trie Algorithm".
 
 Steps for installing the repository:-
